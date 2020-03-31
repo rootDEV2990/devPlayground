@@ -91,10 +91,25 @@ header h1 {
     background-image: url("https://user-images.githubusercontent.com/60228072/76469855-c3e43f00-63b4-11ea-8e2c-cef6946501cb.png");
 }
 
+.feat-img:nth-child(10) {
+    background-image: url("https://user-images.githubusercontent.com/60228072/78082343-02479b00-7370-11ea-924e-98b4afbbb98a.png");
+}
+
+.feat-img:nth-child(11) {
+    background-image: url("https://user-images.githubusercontent.com/60228072/78082365-14c1d480-7370-11ea-81b8-1cd06d42f4e4.png");
+}
+
+main section:nth-child(3) {
+    background-color: #fff;
+}
+
+main section:nth-child(3) h3{
+    clip-path: circle(50%);
+}
+
 .popup .feat-header h2,
 .popup .feat-header p {
     display: none;
-    height: 100%;
 }
 
 .popup:hover .feat-header h2,
@@ -132,6 +147,14 @@ footer hgroup {
 footer hgroup h3 {
     width: 100;
     
+}
+
+.author {
+    font-size: 1.25rem;
+}
+
+.gallery h3 {
+    font-size: 1.25rem;
 }
 
 /*gradient
