@@ -33,6 +33,15 @@ header h1 {
     width: 50px;
 }
 
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 2%;
+}
+
+
 .fab {
     font-size: 2.5rem;
 }
@@ -53,7 +62,9 @@ header h1 {
     margin: 3px 3px;
 }
 
-.feat-img {
+.feat-img,
+.live-img,
+.article-img {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -97,6 +108,22 @@ header h1 {
 
 .feat-img:nth-child(11) {
     background-image: url("https://user-images.githubusercontent.com/60228072/78082365-14c1d480-7370-11ea-81b8-1cd06d42f4e4.png");
+}
+
+.feat-img:nth-child(12) {
+    background-image: url("https://user-images.githubusercontent.com/60228072/79629761-acb21300-8111-11ea-9593-81dbd4069a83.png");
+}
+
+.live-img:nth-child(2) {
+    background-image: url("https://user-images.githubusercontent.com/60228072/79630001-6b226780-8113-11ea-86ce-5850d15ac023.png");
+}
+
+.live-img:nth-child(3) {
+    background-image: url("https://user-images.githubusercontent.com/60228072/79629994-5ba31e80-8113-11ea-9495-e17d55686d15.png");
+}
+
+.article-img:nth-child(2) {
+    background-image: url("https://user-images.githubusercontent.com/60228072/79630167-a7a29300-8114-11ea-924e-00ab29ed9947.png");
 }
 
 main section:nth-child(3) {
